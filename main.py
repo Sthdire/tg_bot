@@ -6,7 +6,7 @@ from test import Parser
 
 p = Parser
 # Создаем экземпляр бота
-bot = telebot.TeleBot('5539235127:AAEFDGEq2TDHiPP2fgnMSDi1RnJi8MJ3OOU')
+bot = telebot.TeleBot('you telegrmB token')
 
 # Функция, обрабатывающая команду /start
 @bot.message_handler(commands=["start"])
