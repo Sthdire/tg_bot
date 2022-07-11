@@ -5,13 +5,6 @@ from telebot import types
 from test import Parser
 
 p = Parser
-
-s = requests.Session()
-
-html_h = s.get("https://randstuff.ru/fact/")
-html_b = BS(html_h.content, "html.parser")
-
-
 # Создаем экземпляр бота
 bot = telebot.TeleBot('5539235127:AAEFDGEq2TDHiPP2fgnMSDi1RnJi8MJ3OOU')
 
